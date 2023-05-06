@@ -1,10 +1,15 @@
 const express = require('express')
 const app = express()
-const port = 8000
+const port = 7055
 
 app.get('/', (req, res) => {
   console.log('GET /');
   res.send('Hello World! node vxx.xx.x By https://github.com/wachira90');
+});
+
+app.get('/api', (req, res) => {
+  console.log('GET /');
+  res.send('Hello World! API');
 });
 
 app.listen(port, () => {
