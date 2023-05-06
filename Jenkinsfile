@@ -6,17 +6,15 @@ pipeline {
         }
     }
     stages {
-        stage('Build') { 
+        stage('build') { 
             steps {
                 sh 'npm install' 
             }
         }
-    }
-    stages {
         stage('start') { 
             steps {
                 sh 'node app.js' 
             }
         }
-    }
+    }  
 }
