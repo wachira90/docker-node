@@ -11,11 +11,11 @@ pipeline {
         stage('build') { 
             steps {
                 sh 'yarn install'
-                sh 'node app.js'
+//                sh 'node app.js'
             }
         }
 
-        stage('start') { 
+        stage('FINISH') { 
             steps {
                 sh 'echo SUCCESS'
             }
