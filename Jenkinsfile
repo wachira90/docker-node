@@ -10,7 +10,7 @@ pipeline {
 
         stage('build') { 
             steps {
-                sh 'npm install'
+                sh 'yarn install'
                 sh 'node app.js'
             }
         }
