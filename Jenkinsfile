@@ -8,7 +8,7 @@ pipeline {
     }
     stages {
 
-        stage('build') { 
+        stage('INSTALL PACKAGE') { 
             steps {
                 sh 'yarn install'
 //                sh 'node app.js'
