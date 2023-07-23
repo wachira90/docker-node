@@ -4,6 +4,10 @@
   "description": "node application https://github.com/wachira90?tab=repositories",
   "main": "app.js",
   "license": "MIT",
+  "scripts": {
+    "build": "yarn install",
+    "start" : "npm run"
+  },
   "dependencies": {
     "express": "^4.17.3"
   },
