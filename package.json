@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn install",
-    "start" : "npm run"
+    "start" : "npm run-script"
   },
   "dependencies": {
     "express": "^4.17.3"
